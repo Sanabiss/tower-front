@@ -1,0 +1,10 @@
+p {
+    font-family:  Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background-color: aqua;
+    background-image: url("images/banniere.jpg");
+}
+.introduction {
+    font-weight: 1000;
+}

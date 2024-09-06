@@ -1,0 +1,218 @@
+.bordeur {
+    margin:auto;
+    border: 0.5px solid #000;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cadre {
+    margin: auto;
+    font-size: 20px;
+    word-spacing: 50px;
+    border: 0.5px solid #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   flex: 10;
+   padding: 25px;
+      
+}
+
+.disc-one{
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    border-radius: 9px;
+    height: 36px;
+    background-color:orangered;
+    border-radius: 5px;
+    margin: 0 90px;
+    width: 160px;
+    margin-left: 6.20%;
+  
+}
+
+.disc-two {
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    border-radius: 9px;
+    height: 36px;
+    background-color:skyblue;
+    border-radius: 5px;
+    margin: 0 90px;
+    width: 120px;
+    margin-left: 6.5%;
+}
+
+.disc-three {
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    border-radius: 9px;
+    height: 45px;
+    background-color:blue;
+    border-radius: 5px;
+    margin: 0 90px;
+    width: 80px;
+    margin-left: 8.3%; 
+    
+    
+}
+.towers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tower {
+   
+    top: 67.5px;
+    border-radius: 9px;
+    width: 45px;
+    height: 270px;
+    background: linear-gradient(to right, #d7b889, #b27315, #966f33);
+}
+
+
+.bottom {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    border: 9px;
+    left: 0;
+    right:0;
+    bottom:0px;
+    height: 45px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3),transparent),
+    linear-gradient(#b27315, #966f33 13%, #faddb0 14.5%, #faddb0 27.5%, #966f33 29%, #966f33 42%, #faddb0 43.5%, #d7b889 56.5%, #966f33 58%, #966f33 71%, #d7b889 72.5%, #d7b889 85.5%, #966f33 87%, #b27315);
+
+}
+
+
+
+
+
+.tour {
+    width: 100%;
+    position: relative;
+    
+}
+.page {
+    display: flex;
+
+}
+.form {
+    flex: 5;
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+  
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+   
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+   
+    .cadre {
+        width: 450px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .cadre {
+        width: 450px;
+    }
+ 
+ }
+ 
+ .tower-A {
+    margin-left: 10%;
+ }
+.tower-C {
+    margin-left: 5% ;
+}
+ .tower-B {
+    margin-right: 10%;
+ }
+
+
+ 
+ #discs {
+    display: flex;
+    width:70%;
+  }
+
+  .container {
+    display: block;
+    border: 1px black solid;
+    padding: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    /* position: absolute; */
+    display: block;
+    /* margin: 0 auto; */
+    border: 9px;
+    /* left: 0;
+    right:0;
+    bottom:0px; */
+    height: 50px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3),transparent),
+    linear-gradient(#b27315, #966f33 13%, #faddb0 14.5%, #faddb0 27.5%, #966f33 29%, #966f33 42%, #faddb0 43.5%, #d7b889 56.5%, #966f33 58%, #966f33 71%, #d7b889 72.5%, #d7b889 85.5%, #966f33 87%, #b27315);
+
+}
+.towerss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+}
+
+.towerr {
+    border-radius: 15px 15px 0px 0px;
+    width: 50px;
+    height: 270px;
+    background: linear-gradient(to right, #d7b889, #b27315, #966f33);
+}
+
+.tourr {
+    width: 100%;
+    
+}
+
+.discs {
+    display: block;
+}
+
+.disc{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    height: 30px;
+    background-color:orangered;
+    border-radius: 15px;
+    width: 80px;  
+    margin-left: 4%;
+    
+   
+}
+
+.tt {
+    display: block;
+}

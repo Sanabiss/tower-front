@@ -1,0 +1,30 @@
+h1 {
+    text-align: right;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.border {
+  background-color: floralwhite;
+}
+.null {
+    background-color: darkslateblue;
+    border: solid;
+    border-radius: 90px 90px 90px 90px;
+}
+.bien {
+    border: solid;
+    border-width: thick;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.bien {
+    border: 0.5px solid #000;
+    border-radius: 40px;
+    padding: 20px;
+  }
